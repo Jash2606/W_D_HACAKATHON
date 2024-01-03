@@ -1,0 +1,538 @@
+
+header {
+    height: 100vh;
+    background-color: rgb(59, 59, 229);
+}
+
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: larger;
+    color: white;
+    padding: 2rem;
+    font-size: 2em;
+    
+}
+.INFO{
+    display: flex;
+}
+.social_logo{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+.INFO .email{
+    display: flex;
+    /* align-items: center;
+    justify-content: space-between; */
+    width: 90%;
+    background-color: #007bff;
+    color: #007bff;
+    margin: 2px;
+    
+}
+.contact{
+    margin-right: 2rem;
+    background-color: #007bff;
+}
+p.contact {
+    color: white;
+    background-color: #007bff;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 40px 20px; /* Add space at the top and bottom */
+    background-color: white;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+.email{
+    background-color: #007bff;
+}
+h1{
+    font-size: 3.5em;
+}
+
+.title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    gap: 1rem;
+    font-size: 18px;
+    font-weight: 500;
+}
+.FONT{
+    color: white ;
+}
+
+.text{
+    color: white;
+
+}
+.text p{
+    color: #343434;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    justify-content: space-around;
+}
+        
+.content{
+    display: flex;
+    justify-content: space-around;
+}
+p{
+    color: #343434;
+}
+.btn{
+    /* border: 2px solid  #224591; */
+    padding: 1rem 2rem;
+    /* border-radius: 30px; */
+    /* color: var(--accent-color);
+     */
+     color: white;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    font-size: 18px;
+    /* background-color: #213f80; */
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p .contact{
+    background-color: aliceblue;
+}
+.Contact {
+    height: 90vh;
+    padding: 30px;
+    text-align: center;
+
+}
+
+.Heading h1 {
+    font-size: 2em;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: white; /* Blue heading color */
+}
+
+.Heading p {
+    border-bottom: 2px solid #e1e5e9; /* Blue line under the heading */
+    margin-bottom: 20px;
+    margin-top: 2px;
+}
+
+.Location{
+    display: flex;
+}
+.call span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Email{
+    display: flex;
+}
+.Call{
+    display: flex;
+}
+.Open-hours{
+    display: flex;
+}
+
+.main-part{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about-section{
+    height: 90vh;
+    margin-bottom: 30rem;
+}
+
+.about span h1{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+.about span h5{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+.client{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.img1 p{
+    background-color: white;
+}
+
+.about h5{
+    font-size: larger;
+    background-color: white;
+}
+
+.line1{
+    background-color: white;
+}
+.main-part{
+    display: flex;
+    justify-content: space-around;
+    gap: 3em;
+    margin: 10px;
+    background-color: white;
+}
+
+.about-section{
+    background: white;
+    margin-top: 50px;
+}
+.img1{
+    background-color: white;
+    width: 45%;
+}
+.img1 img{
+    border-radius: 1rem;
+}
+
+.img1 h2{
+    font-weight: bold;
+    font-size: xx-large;
+    background-color: white;
+}
+.img1-content{
+    background-color: white;
+    width: 45%;
+   
+}
+.img1-content img{
+    border-radius: 0.5rem;
+}
+
+.img1-content span h4{
+    flex-wrap: wrap;
+    background-color: white;
+}
+
+
+.op{
+    height: 90vh;
+    margin-top: 10px;
+}
+
+.op .heading .h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.op .heading h5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.our-service{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+
+
+.review{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 3rem;
+}
+
+.review .people1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo{
+    margin: 10rem;
+}
+.our-service{
+    margin-top: 3rem;;
+}
+
+.Testnomicals{
+    margin: 3rem;
+    margin-bottom: 50rem;
+    /* height: 90vh; */
+}
+
+/* .ct{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.our-team{
+    margin: 10rem;
+}
+.ct h4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ct h5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ct h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.jash h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.jash h5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.name .temp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.people1{
+    gap: 1rem;
+}
+.people1 .hero img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+}
+.heading h1{
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo1 .name .social-app{
+    display: flex;
+    gap: 2rem;
+    justify-content: space-evenly;
+}
+
+.photo1 .name h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.photo1 .name h5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.photo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.row1{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: 2rem;
+
+}
+
+.row2{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: 2rem;
+
+}
+.table {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.Email {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.Email span {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.Form {
+    max-width: 400px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+form {
+    background-color: #007BFF; /* Blue form background */
+    padding: 20px;
+    border-radius: 8px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    background-color: #fff; /* White input background */
+    color: #333; /* Dark gray text color */
+}
+
+textarea {
+    resize: vertical;
+}
+
+input[type="submit"] {
+    background-color: #fff; /* White submit button */
+    color: #007BFF; /* Blue text color */
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #007BFF; /* Blue on hover */
+    color: #fff; /* White text color on hover */
+}
+
+
+.site-details-footer{
+    width: 100%;
+}
+
+footer{
+    margin: 10rem;
+}
+footer .content{
+    gap: 1rem;
+}
+footer{
+    padding: 0;
+}
+.footer-links-address{
+    width: 100%;
+}
+.copyright{
+    margin-bottom: 2rem;
+}
+.contact-us{
+    margin: 0;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .table{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      font-size: larger;
+  }
+  form {
+              max-width: 600px;
+              margin: 40px auto;
+              background-color: #fff;
+              padding: 20px;
+              border-radius: 8px;
+              box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+          }
+  
+          label {
+              display: block;
+              margin-bottom: 8px;
+          }
+  
+          input,
+          textarea {
+              width: 100%;
+              padding: 10px;
+              margin-bottom: 15px;
+              box-sizing: border-box;
+              border: 1px solid #ccc;
+              border-radius: 4px;
+              font-size: 16px; /* Adjust the font size */
+          }
+  
+          textarea {
+              resize: vertical; /* Allow vertical resizing for textarea */
+          }
+  
+          button {
+              background-color: #007BFF;
+              color: #fff;
+              padding: 10px 20px;
+              border: none;
+              border-radius: 4px;
+              cursor: pointer;
+          }
+  
+          button:hover {
+              background-color: #0056b3;
+          }
+.Heading{
+    margin: 3rem;
+}  
